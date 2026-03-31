@@ -2,17 +2,6 @@
 bool f2Faca = false, f2Garfo = false, f2Comeu = false;
 
 
-Console.WriteLine("        FILÓSOFOS À MESA\n");
-
-Console.WriteLine("   (F1)                 (F2)");
-Console.WriteLine("    O                     O");
-Console.WriteLine("   /|\\                   /|\\");
-Console.WriteLine("   / \\                   / \\");
-Console.WriteLine("     \\_________________/");
-Console.WriteLine("        |  🍽️   🍽️  |");
-Console.WriteLine("        |  faca garfo |");
-Console.WriteLine("        |_____________|");
-
 while (true)
 {
     Console.WriteLine("\n===== MENU =====");
