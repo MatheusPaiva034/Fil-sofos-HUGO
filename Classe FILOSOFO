@@ -1,0 +1,60 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+internal class Filosofos
+{
+    private bool garfo1Livre = true;
+    private bool faca1Livre = true;
+    private bool garfo2Livre = true;
+    private bool faca2Livre = true;
+
+    public void ComerF1()
+    {
+        Console.WriteLine("Qual deseja pegar primeiro?");
+        Console.WriteLine("1 - Garfo");
+        Console.WriteLine("2 - Faca");
+        int escolha = int.Parse(Console.ReadLine());
+
+        switch (escolha)
+        {
+            case 1:
+                Console.WriteLine("O filósofo 1 pegou o garfo primeiro");
+                Console.WriteLine("O filósofo 1 pegou a faca");
+                Console.WriteLine("O filósofo 1 comeu");
+                break;
+
+            case 2:
+                Console.WriteLine("O filósofo 1 pegou a faca primeiro");
+                Console.WriteLine("O filósofo 1 pegou o garfo");
+                Console.WriteLine("O filósofo 1 comeu");
+                break;
+
+        }
+
+    }
+
+    public void ComerF2()
+    {
+        Console.WriteLine("Qual deseja pegar primeiro?");
+        Console.WriteLine("1 - Garfo");
+        Console.WriteLine("2 - Faca");
+        int escolha = int.Parse(Console.ReadLine());
+
+        switch (escolha)
+        {
+            case 1:
+                Console.WriteLine("O filósofo 2 pegou o garfo primeiro");
+                Console.WriteLine("O filósofo 2 pegou a faca");
+                Console.WriteLine("O filósofo 2 comeu");
+                break;
+
+            case 2:
+                Console.WriteLine("O filósofo 2 pegou a faca primeiro");
+                Console.WriteLine("O filósofo 2 pegou o garfo");
+                Console.WriteLine("O filósofo 2 comeu");
+                break;
+
+        }
+    }
+}
